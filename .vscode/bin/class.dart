@@ -5,10 +5,18 @@ class Fatherclass {
   String gmail = "sumantachtg@gmail.com";
 }
 
+class Secondclass extends Fatherclass {
+  int dob = 2001;
+  int postcode = 5100;
+}
+
 void main() {
-  var objectclass = Fatherclass();
+  Fatherclass objectclass = Fatherclass();
+  Secondclass secondobject = Secondclass();
   print("Name :${objectclass.name}");
   print("Phone :${objectclass.phone}");
   print("Gmail :${objectclass.gmail}");
   print("Address :${objectclass.address}");
+  //.......................
+  print("Date of Birth = ${secondobject.dob}");
 }
