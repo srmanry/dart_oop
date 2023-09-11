@@ -3,20 +3,21 @@ class Prentclass {
   int roll = 102119;
   String prentname = "Google";
   int function(int a, int b) {
-   
     return a + b;
   }
 }
 
 class Motherclass {
   String prentname = "Dart language";
+
   int function(int a, int b) {
-   
     return b - a;
   }
 }
 
-class Childclass implements Motherclass Prentclass {
+class Childclass implements Motherclass, Prentclass {
+  @override
+  String prentname = "C++";
   // @override
   int function(int a, int b) {
     // var name = "haman";

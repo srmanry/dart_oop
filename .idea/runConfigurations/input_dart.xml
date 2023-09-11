@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="input.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" editBeforeRun="true" nameIsGenerated="true">
-    <option name="checkedMode" value="false" />
-    <option name="filePath" value="$PROJECT_DIR$/.vscode/bin/input.dart" />
-    <option name="workingDirectory" value="$PROJECT_DIR$/.vscode/bin" />
-    <method v="2" />
-  </configuration>
-</component>
